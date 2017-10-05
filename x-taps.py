@@ -18,7 +18,6 @@ def flash(c):
         pixels.show()
         time.sleep(0.1)
 
-
 # Accelerometer tap threshold.  Higher values mean you need to tap harder to start a spin.
 TAP_THRESHOLD = 20
 
@@ -46,8 +45,10 @@ while True:
     if clicksrc & 0b01000000 > 0:
         # Check if this was a positive or negative click event.
         if clicksrc == 0b1010001:  # Positive click
+            print("Positive click")
             flash((0, 0, 20))
         elif clicksrc == 0b1011001:  # Negative click
+            print("Negative click")
             flash((0, 20, 00))
 
     # Small delay to stay responsive but give time for interrupt processing.
