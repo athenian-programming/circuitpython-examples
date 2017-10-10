@@ -6,6 +6,8 @@ CircuitPython examples for the [Adafruit Circuit Playground Express](https://www
 
 The CircuitPython API docs are [here](https://circuitpython.readthedocs.io/en/1.x/index.html).
 
+MicroPython Basics are [here](https://learn.adafruit.com/micropython-basics-load-files-and-run-code/boot-scripts).
+
 ## Ampy Utility
 
 The [ampy](https://learn.adafruit.com/micropython-basics-load-files-and-run-code/overview) utility
